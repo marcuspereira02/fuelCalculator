@@ -29,8 +29,9 @@ class ConsumptionActivity : AppCompatActivity() {
             } else {
                 val consumoGasolina : Float = itConsumo.text.toString().toFloat()
 
-                val intent = Intent(this,)
-
+                val intent = Intent(this, DistanceActivity::class.java)
+                intent.putExtra(KEY_DISTANCE_ACTIVITY, consumoGasolina)
+                startActivity(intent)
             }
         }
     }
