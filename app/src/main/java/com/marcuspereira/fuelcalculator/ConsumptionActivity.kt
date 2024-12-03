@@ -19,6 +19,7 @@ class ConsumptionActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_consumption)
 
+        val precoCombustivel: Float =intent.getFloatExtra("PRECO_COMBUSTIVEL", 0f)
         val btnProximo2 = findViewById<Button>(R.id.btn_Proximo2)
         val itConsumo = findViewById<TextInputEditText>(R.id.it_Consumo)
 
@@ -31,6 +32,10 @@ class ConsumptionActivity : AppCompatActivity() {
 
                 val intent = Intent(this, DistanceActivity::class.java)
                 intent.putExtra(KEY_DISTANCE_ACTIVITY, consumoGasolina)
+
+                intent.putExtra("PRECO_COMBUSTIVEL", precoCombustivel)
+                intent.putExtra("CONSUMO_GASOLINA", consumoGasolina)
+
                 startActivity(intent)
             }
         }

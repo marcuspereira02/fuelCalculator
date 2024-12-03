@@ -31,7 +31,8 @@ class PriceActivity : AppCompatActivity() {
                 val preco_Gasolina : Float = it_Preco.text.toString().toFloat()
                 val intent = Intent(this, ConsumptionActivity::class.java)
 
-                intent.putExtra(KEY_CONSUMPTION_ACTIVITY, preco_Gasolina)
+                intent.putExtra(KEY_CONSUMPTION_ACTIVITY, "")
+                intent.putExtra("PRECO_COMBUSTIVEL", preco_Gasolina)
                 startActivity(intent)
                 }
             }
