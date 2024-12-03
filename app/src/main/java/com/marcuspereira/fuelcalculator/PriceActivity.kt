@@ -22,7 +22,6 @@ class PriceActivity : AppCompatActivity() {
         val btn_Proximo = findViewById<Button>(R.id.btn_Proximo1)
         val it_Preco = findViewById<TextInputEditText>(R.id.it_Preco_Gasolina)
 
-
         btn_Proximo.setOnClickListener {
             val precoStr:String = it_Preco.text.toString()
 
@@ -35,7 +34,6 @@ class PriceActivity : AppCompatActivity() {
                 intent.putExtra(KEY_CONSUMPTION_ACTIVITY, preco_Gasolina)
                 startActivity(intent)
                 }
-
             }
         }
     }
