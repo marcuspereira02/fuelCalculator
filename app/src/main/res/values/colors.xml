@@ -3,7 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primary">#2E236C</color>
-    <color name="caption">#F8EDED</color>
+    <color name="passo">#CE5959</color>
+    <color name="primary">#17153B</color>
+    <color name="caption">#9BABB8</color>
     <color name="secondary">#C8ACD6</color>
+    <color name ="terciary">#433D8B</color>
 </resources>

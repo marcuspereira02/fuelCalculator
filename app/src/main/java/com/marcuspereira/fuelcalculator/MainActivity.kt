@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             val btnIniciar = findViewById<Button>(R.id.btn_iniciar)
 
             btnIniciar.setOnClickListener{
-               val intent = Intent(this,PriceActivity::class.java)
+               val intent = Intent(this, PriceActivity::class.java)
                intent.putExtra(KEY_PRICE_ACTIVITY,"")
                 startActivity(intent)
             }
