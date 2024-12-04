@@ -19,6 +19,7 @@ class ResultActivity : AppCompatActivity() {
         val consumoGasolina: Float = intent.getFloatExtra("CONSUMO_GASOLINA", 0f)
         val precoCombustivel: Float =intent.getFloatExtra("PRECO_COMBUSTIVEL", 0f)
         val distanciaKm: Float = intent.getFloatExtra("DISTANCIA_KM", 0f)
+        val result : Float = intent.getFloatExtra(KEY_RESULT_ACTIVITY, 0f)
 
         }
     }
