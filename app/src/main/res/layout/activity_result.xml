@@ -8,10 +8,10 @@
     android:layout_height="match_parent"
     tools:context=".ResultActivity">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/vg_header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:background="@drawable/rounded_bg"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,18 +19,33 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$"
+            android:textColor="@color/primary"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_Resultado"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
             android:id="@+id/tv_Resultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="75dp"
-            android:layout_marginBottom="75dp"
             android:textColor="@color/primary"
             android:textSize="50dp"
             android:textStyle="bold"
-            tools:text="R$51.10" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503"
+            tools:text="51.10" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <Button
@@ -75,10 +90,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:textColor="@color/caption"
-        android:layout_marginEnd="75dp"
+        android:layout_marginEnd="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:text="4.67" />
+        tools:text="4.65" />
 
     <TextView
         android:id="@+id/textView9"
@@ -110,7 +125,7 @@
         android:id="@+id/tv_dadoConsumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="7.0"
+        tools:text="8.0"
         android:textColor="@color/caption"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="80dp"
@@ -121,7 +136,7 @@
         android:id="@+id/tv_dadoKm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="150.0"
+        tools:text="35.0"
         android:textColor="@color/caption"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="70dp"
