@@ -59,7 +59,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/it_Consumo"
             android:inputType="numberDecimal"
-            android:maxLength="2"
+            android:maxLength="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/terciary"

@@ -60,6 +60,7 @@
             android:id="@+id/it_Distancia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLength="6"
             android:textColor="@color/white"
             android:textColorHint="@color/caption"
             android:hint="Ex: 35km" />
