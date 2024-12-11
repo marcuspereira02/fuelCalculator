@@ -8,15 +8,36 @@
     android:layout_height="match_parent"
     tools:context=".ConsumptionActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_Consumption"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/layout_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/consumo"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <Button
         android:id="@+id/btn_Proximo2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Próximo"
-        android:textSize= "15dp"
+        android:textSize= "15sp"
         android:textColor="@color/black"
         android:backgroundTint="@color/secondary"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -25,14 +46,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
         android:text="Consumo do Carro"
         android:textColor="@color/white"
+        android:textSize="20sp"
         android:textStyle="bold"
-        android:textSize="20dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginStart="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_Consumption" />
 
     <TextView
         android:id="@+id/textView2"
@@ -50,7 +71,6 @@
         android:layout_marginTop="25dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-
         app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/terciary"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textColorHint="@color/caption"
             android:hint="Ex: 8km/l" />
     </com.google.android.material.textfield.TextInputLayout>

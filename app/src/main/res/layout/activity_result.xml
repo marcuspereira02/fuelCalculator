@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:text="R$"
             android:textColor="@color/primary"
-            android:textSize="50dp"
+            android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/tv_Resultado"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="@color/primary"
-            android:textSize="50dp"
+            android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Novo Cálculo"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         android:backgroundTint="@color/secondary"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:text="Revisão dos dados inseridos:"
-        android:textColor="@color/caption"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vg_header" />
@@ -77,8 +77,8 @@
         android:layout_height="wrap_content"
         android:text="Preço"
         android:textStyle="bold"
-        android:textColor="@color/caption"
-        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
         android:layout_marginTop="60dp"
         android:layout_marginStart="67dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,11 +88,10 @@
         android:id="@+id/tv_dadoPreco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:textColor="@color/caption"
+        android:textColor="@color/white"
         android:layout_marginEnd="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
         tools:text="4.65" />
 
     <TextView
@@ -100,11 +99,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Consumo"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:layout_marginTop="40dp"
         android:layout_marginStart="67dp"
         android:textStyle="bold"
-        android:textColor="@color/caption"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -113,11 +112,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="KM"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:layout_marginTop="40dp"
         android:layout_marginStart="67dp"
         android:textStyle="bold"
-        android:textColor="@color/caption"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -126,21 +125,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="8.0"
-        android:textColor="@color/caption"
-        android:layout_marginTop="44dp"
+        android:textColor="@color/white"
         android:layout_marginEnd="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_dadoPreco" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView9"/>
 
     <TextView
         android:id="@+id/tv_dadoKm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="35.0"
-        android:textColor="@color/caption"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="70dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="73dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_dadoConsumo"/>
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView10"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
