@@ -4,8 +4,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="passo">#CE5959</color>
-    <color name="primary">#17153B</color>
-    <color name="caption">#9BABB8</color>
-    <color name="secondary">#C8ACD6</color>
-    <color name ="terciary">#433D8B</color>
+    <color name="primary">#0F0F0F</color>
+    <color name="caption">#474E68</color>
+    <color name="secondary">#E5E5CB</color>
+    <color name ="terciary">#D5CEA3</color>
 </resources>
