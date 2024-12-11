@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout_Consumption"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="425dp"
         android:background="@drawable/layout_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,8 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="300dp"
             android:src="@drawable/consumo"
-            android:layout_marginTop="35dp"
-            android:layout_marginEnd="45dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="60dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -82,7 +82,7 @@
             android:maxLength="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/terciary"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textColorHint="@color/caption"
             android:hint="Ex: 8km/l" />

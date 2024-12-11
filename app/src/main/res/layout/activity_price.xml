@@ -15,7 +15,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="425dp"
             android:background="@drawable/layout_bg"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="70dp"
                 android:src="@drawable/abastecendo"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +84,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/it_Preco_Gasolina"
                 android:inputType="numberDecimal"
-                android:background="@color/terciary"
+                android:background="@color/white"
                 android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

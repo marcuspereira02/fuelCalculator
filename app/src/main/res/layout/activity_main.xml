@@ -17,7 +17,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout_Main"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="425dp"
             android:background="@drawable/layout_bg"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/capa"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="65dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
