@@ -1,10 +1,10 @@
 ## Calculadora de gasto de combustível
-Esse projeto é um aplicativo Android nativo desenvolvido com a linguagem de programação Kotlin, sua principal finalidade é fazer o cálculo de quanto o usuário irá gastar de combustível em sua viagem.
+Esse projeto é um aplicativo Android nativo desenvolvido com a linguagem de programação Kotlin, sua principal finalidade é fazer o cálculo de quanto o usuário irá gastar com combustível em sua viagem.
 
 
 ## 🚀 Funcionalidades
 
-- **Cálculo de gasto de combustível:** Informe a distância da viagem e o consumo do veículo para obter o custo total com combustível.
+- **Cálculo de gasto de combustível:** Informe a distância da viagem, o consumo do veículo e o preço do combustível para obter o custo total do combustível.
 
 - **Interface intuitiva:** Simples de usar, com elementos visuais que guiam o usuário no processo.
 
