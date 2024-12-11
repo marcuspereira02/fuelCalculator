@@ -39,8 +39,8 @@ class ResultActivity : AppCompatActivity() {
         tvResultado.text = String.format("%.2f",result)
 
         btnNovoCalculo.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(KEY_MAIN_ACTIVITY,"")
+            val intent = Intent(this, PriceActivity::class.java)
+            intent.putExtra(KEY_PRICE_ACTIVITY,"")
             startActivity(intent)
         }
     }
